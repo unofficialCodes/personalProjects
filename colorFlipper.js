@@ -85,7 +85,7 @@ surpriseBtn.addEventListener("click", surpriseHandler);
 
 function surpriseHandler() {
   let promptValue = confirm(
-    'BABY IDHI NA FIRST PROJECT(chinnadhe but start to end motham neney chesa) Chusi cheppu I Love You <3'
+    'BABY ,IDHI NA FIRST PROJECT(chinnadhe but start to end motham neney chesa) Chusi cheppu I Love You. Jagartha hospital lo,ee tym lo kuda chusthunandhuku Thank you Baby'
   );
   if (promptValue == true) {
     let navigation = document.getElementById("navigation");
