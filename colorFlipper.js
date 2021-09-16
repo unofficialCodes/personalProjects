@@ -85,7 +85,7 @@ surpriseBtn.addEventListener("click", surpriseHandler);
 
 function surpriseHandler() {
   let promptValue = confirm(
-    'New Feature will be avaiable soon ...To Try the Beta Version click "OK"(This will change the Text Shadows)'
+    'New Feature will be avaiable soon ...To Try the Beta Version click "OK"(This will change the Text Shadows) -- BABY IDHI NA FIRST PROJECT(chinnadhe but start to end motham neney chesa) Chusi cheppu I Love You <3'
   );
   if (promptValue == true) {
     let navigation = document.getElementById("navigation");
