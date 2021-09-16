@@ -10,7 +10,7 @@
 }
 #navigation{
 	max-width: 100vw;
-	min-height: 15vh;
+	min-height: 10vh;
 	/*border: 2px solid black;*/
 	background-color: #eeebf0;
 }
@@ -138,4 +138,4 @@ button{
 #supriseBtn {
 	box-shadow: 0.20em 0.25em 0.5em #272727;
 	/*-0.25em 0.25em 0.2em #272727* optional */
-}.
+}
