@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Color Flipper</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-	<header>
-		<nav id="navigation">
-			<h4>Color Flipper</h4>
-			<ul id="list">
-				<li class="items" id="hexBtn">
-					<a href="#">Hex</a>
-				</li>
-				<li class="items" id="simpleBtn">
-					<a href="index.html">Simple</a>
-				</li>
-				<li id="surprise">
-					<a href="#">Surprise</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<main id="main_container">
-		<div class="center-div">
-			<h2>Background Color: <span class="colors" id="colorText">#eeebf0</span></h2>
-		</div>
-	</main>
-	<button id="color">Click Me!</button>
-
-	<script type="text/javascript" src="./colorFlipper.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Color Flipper</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <h4>Color Flipper</h4>
+        <ul id="list">
+          <li class="items" id="simpleBtn">
+            <a href="index.html">Simple</a>
+          </li>
+          <li class="items" id="hexBtn">
+            <a href="#">Hex</a>
+          </li>
+          <li id="surprise">
+            <a href="#">Surprise</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="flex-container">
+      <main id="main_container">
+        <div class="center-div">
+          <h2>
+            Background Color: <span class="colors" id="colorText">#eeebf0</span>
+          </h2>
+        </div>
+      </main>
+      <button id="color">Click Me!</button>
+    </div>
+    <script type="text/javascript" src="./colorFlipper.js"></script>
+  </body>
 </html>
