@@ -39,11 +39,10 @@ li a {
 
 h4 {
   text-align: left;
-  background-image: linear-gradient(90deg, red, blue);
-  background-clip: text;
-  color: transparent;
+  /* background-image: linear-gradient(90deg, red, blue); */
+  /* background-clip: text; */
+  color: black;
   display: inline-block;
-  /*border: 2px solid black;*/
   float: left;
   margin: 6px;
   padding: 6px;
@@ -220,5 +219,93 @@ button {
   }
   span {
     font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h4 {
+    display: inline-block;
+  }
+  .center-div {
+    width: 60%;
+    height: 40%;
+    padding: 23px;
+    overflow: hidden;
+  }
+  h2 {
+    margin: 6px;
+    font-size: 1.6rem;
+  }
+  span {
+    font-size: 1rem;
+  }
+  button {
+    width: 30vw;
+    height: 6vh;
+  }
+}
+
+@media only screen and (min-width: 346px) and (max-width: 526px) {
+  #navigation {
+    display: flex;
+  }
+  ul {
+    flex: 1;
+    align-self: flex-start;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 626px) {
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .center-div {
+    width: 50%;
+    height: 40%;
+  }
+  button {
+    width: 20%;
+    height: 6vh;
+  }
+}
+
+@media only screen and (min-width: 626px) and (max-width: 900px) {
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .center-div {
+    width: 50%;
+    height: 40%;
+  }
+  button {
+    width: 20%;
+    height: 6vh;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .center-div {
+    width: 40%;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  span {
+    font-size: 1.6rem;
+  }
+  button {
+    width: 15%;
+    height: 6vh;
   }
 }
